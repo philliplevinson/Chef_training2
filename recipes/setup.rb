@@ -1,22 +1,8 @@
-package 'nano' do
-	action :install
-end
-
-package 'tree' do
-	action :install
-end
-
-package 'vim' do
-	action :install
-end
-
-package 'emacs' do
-	action :install
-end
-
-package 'git' do
-	action :install
-end
+package 'nano' 
+package 'tree'
+package 'vim'
+package 'git'
+package 'emacs'
 
 file '/etc/motd' do
 	content 'This server is property of QuestDiagnostics all usage will be monitored'
